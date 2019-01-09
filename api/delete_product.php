@@ -12,12 +12,12 @@ $query = mysqli_query($conn, $sql);
 if($query) {
     $json = array(
         'result' => true,
-        'message' => 'ลบข้อมูลสำเร็จ'    
+        'message' => 'ddddddd'    
     );
 } else {
     $json = array(
         'result' => false,
-        'message' => 'มีข้อผิดพลาด'    
+        'message' => 'xxxxxxxxx'    
     );
 }
 
